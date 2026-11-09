@@ -12,11 +12,16 @@ body {
   color: white;
   background-color: #254441;
 }
+.mainH img {
+  max-width: 3%;
+  max-height: 3%;
+  margin-left: rem;
+}
 
 .brand {
   font-family: monospace;
   font-size: 2rem;
-  margin: 1rem;
+  margin-right: auto;
 }
 
 .topNav {
@@ -70,13 +75,14 @@ body {
 }
 
 .review h1 {
-  width: 60%;
+  width: 50%;
   font-family: monospace;
   font-size: 2rem;
   color: white;
   background-color: #db504a;
   padding: 1rem 1rem 1rem 4rem;
   border-radius: 0 4rem 4rem 0;
+  margin-left: 3rem;
 }
 
 .review {
@@ -114,4 +120,8 @@ footer {
   font-size: 1rem;
   text-align: center;
   padding: 0.75rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
