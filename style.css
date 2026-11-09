@@ -13,9 +13,9 @@ body {
   background-color: #254441;
 }
 .mainH img {
-  max-width: 3%;
-  max-height: 3%;
-  margin-left: rem;
+  max-width: 3rem;
+  max-height: 3rem;
+  margin-left: 2rem;
 }
 
 .brand {
