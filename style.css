@@ -112,6 +112,10 @@ figcaption {
   font-weight: bold;
 }
 
+.finalReview {
+  padding-bottom: 3rem;
+}
+
 footer {
   background-color: #254441;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
