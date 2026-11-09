@@ -6,6 +6,8 @@ body {
 }
 
 .mainH {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +30,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   font-size: 0.75rem;
-  padding-right: 2rem;
+  padding-right: 1rem;
 }
 
 .topNav a {
@@ -128,4 +130,14 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+}
+
+.navPagePrnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.navPageTemp {
+  font-family: monospace;
 }
